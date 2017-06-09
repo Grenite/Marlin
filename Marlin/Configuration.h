@@ -314,9 +314,11 @@
  // #define  DEFAULT_Ki 1.08
   //#define  DEFAULT_Kd 114
   //Ultimaker Original+/UMO+ with e3d V6
-  #define  DEFAULT_Kp 15.51
-  #define  DEFAULT_Ki 0.80
-  #define  DEFAULT_Kd 74.94
+  #define  DEFAULT_Kp 18.49
+  #define  DEFAULT_Ki 0.98
+  #define  DEFAULT_Kd 87.46
+
+
   // MakerGear
   //#define  DEFAULT_Kp 7.0
   //#define  DEFAULT_Ki 0.1
@@ -738,8 +740,8 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define X_MAX_POS 210
-#define Y_MAX_POS 210
+#define X_MAX_POS 205
+#define Y_MAX_POS 205
 #define Z_MAX_POS 210
 
 // If enabled, axes won't move below MIN_POS in response to movement commands.
