@@ -320,16 +320,10 @@
   #define PID_dT ((OVERSAMPLENR * 8.0)/(F_CPU / 64.0 / 256.0)) //sampling period of the temperature routine
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Ultimaker
-  //#define  DEFAULT_Kp 22.2
- // #define  DEFAULT_Ki 1.08
-  //#define  DEFAULT_Kd 114
-  //Ultimaker Original+/UMO+ with e3d V6
-  #define  DEFAULT_Kp 19.22
-  #define  DEFAULT_Ki 0.97
-  #define  DEFAULT_Kd 95.64
-
-
+  // Ultimaker UMO+
+  #define  DEFAULT_Kp 22.2
+  #define  DEFAULT_Ki 1.08
+  #define  DEFAULT_Kd 114
 
   // MakerGear
   //#define  DEFAULT_Kp 7.0
