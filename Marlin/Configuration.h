@@ -904,7 +904,7 @@
   //=================================== Mesh ==================================
   //===========================================================================
 
-  #define MESH_INSET 5         // Mesh inset margin on print area
+  #define MESH_INSET 0         // Mesh inset margin on print area
   #define GRID_MAX_POINTS_X 3    // Don't use more than 7 points per axis, implementation limited.
   #define GRID_MAX_POINTS_Y 2
 
